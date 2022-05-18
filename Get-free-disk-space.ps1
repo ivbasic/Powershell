@@ -1,4 +1,4 @@
-function Get-Free-disk-space {
+function Get-free-disk-space {
     [CmdletBinding()]
     param (
         [String[]]$ServerName,
