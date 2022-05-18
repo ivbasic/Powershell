@@ -1,4 +1,4 @@
-function Get-Email-domain-reputation {
+function Get-email-domain-reputation {
     [CmdletBinding()]
     param (
         [String[]]$OutgoingServerName,
