@@ -1,1 +1,1 @@
-test
+Basically, create and schedule Splunk report to get all users disabled between 90-97 days ago, send that report to some onpremise mailbox, use EWS and Powershell to download the attachment, filter attachment for users, send email notification to IT support department, delete users the next day. 
