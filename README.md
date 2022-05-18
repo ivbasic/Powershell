@@ -1,5 +1,5 @@
 # Powershell
-Collection of Powershell scripts I wrote, that you can use and customize as you wish. There are no comments inside of .ps1 files, because scripts were originaly written for custom environment and were not intended to be published. Some scripts are rewritten as functions for easier readability. 
+Collection of my Powershell scripts that you can use and customize as you wish. There are no comments inside of .ps1 files, because scripts were originaly written for custom environment and were not intended to be published. Some scripts are rewritten as functions for easier readability. 
 
 * Remove-disabled-ADaccounts - delete old disabled AD users
 * Disable-ADUsers-lastlogondate-90days.ps1 - disable inactive AD users with last logon date more than 90 days ago
