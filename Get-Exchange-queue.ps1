@@ -1,4 +1,4 @@
-function Get-ExchangeQueue {
+function Get-Exchange-queue {
     [CmdletBinding()]
     param (
         [parameter(Mandatory=$true)]
