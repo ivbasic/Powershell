@@ -12,12 +12,12 @@ $CiscoESA_updater_logs
 function Get-CiscoESA-AV-status {
     [CmdletBinding()]
     param (
-        [Parameter(Mandatory=$True)][String[]]$CiscoESA_IPaddress, # 10.243.154.148  # 10.243.154.149
-        [Parameter(Mandatory=$True)][String]$CiscoESA_ppk, # C:\Scripts\Get-SOX_AVAS_email_gateway_logs\SSHkeys\WVPSCCM1.ppk
-        [Parameter(Mandatory=$True)][String]$CiscoESA_user, # sox_wsa
-        [Parameter(Mandatory=$True)][String]$CiscoESA_AV_status, # C:\Scripts\Get-SOX_AVAS_email_gateway_logs\CLI_CiscoESA_antivirusstatus.txt
-        [Parameter(Mandatory=$True)][String]$CiscoESA_updater_logs, # C:\Scripts\Get-SOX_AVAS_email_gateway_logs\CLI_CiscoESA_updater_logs.txt
-        [Parameter(Mandatory=$True)][String]$Logs_Location, # C:\Users\u2927a.VIPNET\Desktop\ESAtest
+        [Parameter(Mandatory=$True)][String[]]$CiscoESA_IPaddress, 
+        [Parameter(Mandatory=$True)][String]$CiscoESA_ppk, 
+        [Parameter(Mandatory=$True)][String]$CiscoESA_user, 
+        [Parameter(Mandatory=$True)][String]$CiscoESA_AV_status,
+        [Parameter(Mandatory=$True)][String]$CiscoESA_updater_logs, 
+        [Parameter(Mandatory=$True)][String]$Logs_Location, 
         [String]$SendEmail,
         [String]$MailFrom,
         [String]$MailTo,
