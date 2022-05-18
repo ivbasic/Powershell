@@ -1,5 +1,5 @@
 <#
-This script founds all enabled service domain AD users:
+This script searches all enabled service domain AD users:
 - without owners (we used 'name.surname@domain.com' format in department AD attribute)
 - without employeetype AD attribute (with which we distinguished service users from normal employees)
 and sends alert to IT department to fix AD users without those attributes.
