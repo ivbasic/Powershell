@@ -4,14 +4,14 @@ This script searches all enabled service domain AD users:
 - without employeetype AD attribute (with which we distinguished service users from normal employees)
 and sends alert to IT department to fix AD users without those attributes.
 
-Script is ignoring Exchange objects inside "win.vipnet.hr/Microsoft Exchange System Objects/*"
+Script is ignoring Exchange objects inside "domain.com/Microsoft Exchange System Objects/*"
 #>
 
 Import-module ActiveDirectory
 
 # Get all enabled service users
 $users = get-aduser -filter {Enabled -eq $True}  -Properties displayname, samaccountname, created, description, enabled, employeetype, canonicalname, department, manager  | 
-where {($_.employeetype -notmatch "0|1|2|3") -and ($_.canonicalname -notlike  "win.vipnet.hr/Microsoft Exchange System Objects/*")} 
+where {($_.employeetype -notmatch "0|1|2|3") -and ($_.canonicalname -notlike  "domain.com/Microsoft Exchange System Objects/*")} 
 
 # Check if there is an owner for every service AD user
 foreach($user in $users){
