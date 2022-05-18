@@ -1,4 +1,4 @@
-# powershell
+# Powershell
 Collection of Powershell scripts I wrote, that you can use and customize as you wish. There are no comments inside of .ps1 files, because scripts were originaly written for custom environment and were not intended to be published. Some scripts are rewritten as functions for easier readability. 
 
 * Get-HyperV-Checkpoints.ps1 - receive reports about old Hyper-V checkpoints
