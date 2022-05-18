@@ -1,4 +1,4 @@
-function Get-HyperV-Checkpoints {
+function Get-HyperV-checkpoints {
     [CmdletBinding()]
     param (
         [Parameter(Mandatory=$True)][String]$SCVMMServer,
