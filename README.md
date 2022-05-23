@@ -10,4 +10,5 @@
 * Get-Njuskalo-stan.ps1 - appartment web scrapper (outdated)
 * Get-email-domain-reputation.ps1 - receive reports for email domain reputation from Talos
 * Get-free-disk-space.ps1 - get free disk space for remote machines
+* Get-hotfix.ps1 - get hotfix status for remote servers
 * Get-service-ADaccounts-without-owner.ps1 - find all AD service accounts without owner and other mandatory attributes
