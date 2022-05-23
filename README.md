@@ -4,6 +4,7 @@
 * Send-service-ADaccount-alert - send alert to owners of AD service accounts with password older than 1 year
 * Disable-ADaccounts-lastlogondate-90days.ps1 - disable inactive AD accounts with last logon date more than 90 days ago
 * Get-CiscoESA-AV-status.ps1 - receive Cisco ESA antivirus status
+* Get-Exchange-monitor-mailboxes.ps1 - monitor important mailbox size
 * Get-Exchange-queue.ps1 - receive alerts for high Exchange email queue
 * Get-FireEyeEX-AV-status.ps1 - receive FireEye EX antivirus status
 * Get-HyperV-checkpoints.ps1 - receive reports about old Hyper-V checkpoints
