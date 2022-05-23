@@ -8,6 +8,7 @@
 * Get-Exchange-queue.ps1 - receive alerts for high Exchange email queue
 * Get-FireEyeEX-AV-status.ps1 - receive FireEye EX antivirus status
 * Get-HyperV-checkpoints.ps1 - receive reports about old Hyper-V checkpoints
+* Get-IIS-logs.ps1 - get IIS logs information from remote servers
 * Get-Njuskalo-stan.ps1 - appartment web scrapper (outdated)
 * Get-email-domain-reputation.ps1 - receive reports for email domain reputation from Talos
 * Get-free-disk-space.ps1 - get free disk space for remote machines
