@@ -11,7 +11,7 @@ $block = {
         }
     Catch {$ServerVersion = "N/A"}
 
-    $Last24h = (get-date).AddDays(-1) # kada je isla instalacija patcheva (-1 vjerojatno)
+    $Last24h = (get-date).AddDays(-1) 
     $InstalledUpdates_WindowsUpdateHistory = (Get-HotFix | where InstalledOn -gt $Last24h).count # check Widnows Update History
     $LastRestarted = Get-CimInstance Win32_OperatingSystem | Select-Object -ExpandProperty LastBootUpTime 
     
