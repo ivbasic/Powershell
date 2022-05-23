@@ -1,4 +1,4 @@
-$servers =  #Get-Content C:\\iis_serverlis.txt
+$servers =  Get-Content C:\iis_serverlist.txt
 
 foreach ($server in $servers){
     try {
