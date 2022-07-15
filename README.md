@@ -1,6 +1,6 @@
 # Powershell
 
-* Exchange split permissions - Custom GUI application for IT support admins. Used when Exchange is configured in split permissions model, but also when IT support admins have both AD and Exchange delegated permissions to create users/mailboxes (work in progress)
+* Exchange split permissions - custom GUI application for IT support admins. Used when Exchange is configured in split permissions model, but also when IT support admins have both AD and Exchange delegated permissions to create users/mailboxes (work in progress)
 * Remove-disabled-ADaccounts - delete AD accounts disabled more than 90 days ago
 * Send-service-ADaccount-alert - send alert to owners of AD service accounts with password older than 1 year
 * Disable-ADaccounts-lastlogondate-90days.ps1 - disable inactive AD accounts with last logon date more than 90 days ago
