@@ -1,7 +1,7 @@
 #### DESCRIPTION
 
     <#
-    This script founds all service accounts which have their password close to 1 year old. Owner is notified that he has to change password. 
+    Send notification to owners of service accounts which have password close to or over 1 year of age. 
     #>
 
 
